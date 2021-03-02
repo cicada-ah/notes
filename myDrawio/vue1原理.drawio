@@ -1,0 +1,276 @@
+<mxfile host="65bd71144e" modified="2021-02-03T09:01:09.346Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.46.1 Chrome/78.0.3904.130 Electron/7.3.1 Safari/537.36" etag="vmXIDqM4RE4BKskUMlXG" version="13.10.0" type="embed">
+    <diagram id="cSnHNbQG6Irh7T65kbn5" name="第 1 页">
+        <mxGraphModel dx="3856" dy="860" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span style=&quot;color: #a6e22e&quot;&gt;$mount&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-827" y="168" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-532" y="88"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-532" y="312"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5" target="28" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-532" y="448" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-532" y="446"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span style=&quot;color: #fd971f&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: #a6e22e&quot;&gt;_compile&lt;/span&gt;(&lt;span style=&quot;color: #fd971f ; font-style: italic&quot;&gt;el&lt;/span&gt;)&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-616" y="158" width="168" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span style=&quot;color: #a6e22e&quot;&gt;transclude&lt;/span&gt;(&lt;span style=&quot;color: #fd971f ; font-style: italic&quot;&gt;el&lt;/span&gt;, options)&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;size=-3;" parent="1" vertex="1">
+                    <mxGeometry x="-416" y="48" width="155" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span style=&quot;color: #fd971f&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: #a6e22e&quot;&gt;_initElement&lt;/span&gt;(&lt;span style=&quot;color: #fd971f ; font-style: italic&quot;&gt;el&lt;/span&gt;)&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;size=-4.25;" parent="1" vertex="1">
+                    <mxGeometry x="-413" y="158" width="147.75" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;div style=&quot;color: rgb(248, 248, 242); background-color: rgb(39, 40, 34); font-family: menlo, monaco, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 12px; line-height: 18px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #a6e22e&quot;&gt;compileRoot&lt;/span&gt;&lt;span style=&quot;color: #f8f8f2&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #fd971f ; font-style: italic&quot;&gt;el&lt;/span&gt;&lt;span style=&quot;color: #f8f8f2&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #f8f8f2&quot;&gt;options&lt;/span&gt;&lt;span style=&quot;color: #f8f8f2&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #f8f8f2&quot;&gt;contextOptions&lt;/span&gt;&lt;span style=&quot;color: #f8f8f2&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;size=-12.25;" parent="1" vertex="1">
+                    <mxGeometry x="-413" y="280" width="149" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="43" target="32" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-204" y="402"/>
+                            <mxPoint x="-96" y="402"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="28" target="36" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span style=&quot;color: #a6e22e&quot;&gt;compile&lt;/span&gt;(&lt;span style=&quot;color: #fd971f ; font-style: italic&quot;&gt;el&lt;/span&gt;, options)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-416" y="416" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="32" target="49" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;div style=&quot;color: rgb(248, 248, 242); background-color: rgb(39, 40, 34); font-family: menlo, monaco, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 12px; line-height: 18px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #a6e22e&quot;&gt;compileNode&lt;/span&gt;&lt;span style=&quot;color: #f8f8f2&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #fd971f ; font-style: italic&quot;&gt;el&lt;/span&gt;&lt;span style=&quot;color: #f8f8f2&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #fd971f ; font-style: italic&quot;&gt;options&lt;/span&gt;&lt;span style=&quot;color: #f8f8f2&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-156" y="416" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="&lt;font color=&quot;#66ffff&quot;&gt;true&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="36" target="38" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span style=&quot;color: #fd971f ; font-style: italic&quot;&gt;el&lt;/span&gt;.&lt;span style=&quot;color: #66d9ef&quot;&gt;hasChildNodes&lt;/span&gt;()&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-376" y="546" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="41" target="32" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span style=&quot;color: #a6e22e&quot;&gt;compileNodeList&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;(&lt;span style=&quot;color: #fd971f ; font-style: italic&quot;&gt;el&lt;/span&gt;.&lt;span style=&quot;color: #66d9ef&quot;&gt;childNodes&lt;/span&gt;, &lt;span style=&quot;color: #fd971f ; font-style: italic&quot;&gt;options&lt;/span&gt;)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-156" y="555" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="遍历子节点调用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-144" y="512" width="96" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="38" target="41" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-96" y="555" as="sourcePoint"/>
+                        <mxPoint x="-96" y="476" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" value="节点解析" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-252" y="422" width="96" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="28" target="43" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-256" y="446" as="sourcePoint"/>
+                        <mxPoint x="-156" y="446" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="48" value="&lt;span style=&quot;font-size: 11px&quot;&gt;将template编译为dom fragment&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-520" y="78" width="88" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="49" target="51" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="52" vertex="1" connectable="0">
+                    <mxGeometry x="0.1397" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="49" target="54" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="55" vertex="1" connectable="0">
+                    <mxGeometry x="-0.2349" y="5" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="49" value="&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span style=&quot;color: #fd971f ; font-style: italic&quot;&gt;node&lt;/span&gt;.&lt;span style=&quot;color: #66d9ef&quot;&gt;nodeType&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="64" y="406" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="60" target="57" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.641;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="51" target="73" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="232" y="272" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="84" target="82" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="224" y="352" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="192" y="188"/>
+                            <mxPoint x="192" y="773"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" value="&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span style=&quot;color: #a6e22e&quot;&gt;compileTextNode&lt;/span&gt;(&lt;span style=&quot;color: #fd971f ; font-style: italic&quot;&gt;node&lt;/span&gt;, &lt;span style=&quot;color: #fd971f ; font-style: italic&quot;&gt;options&lt;/span&gt;)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="44" y="158" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span style=&quot;color: #a6e22e&quot;&gt;compileElement&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;(&lt;span style=&quot;color: #fd971f ; font-style: italic&quot;&gt;node&lt;/span&gt;, &lt;span style=&quot;color: #fd971f ; font-style: italic&quot;&gt;options&lt;/span&gt;)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="44" y="576" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="57" target="63" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span style=&quot;color: #66d9ef ; font-style: italic&quot;&gt;var&lt;/span&gt; tokens &lt;span style=&quot;color: #f92672&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #a6e22e&quot;&gt;parseText&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;(&lt;span style=&quot;color: #fd971f ; font-style: italic&quot;&gt;node&lt;/span&gt;.wholeText)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="224" y="32" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="正则匹配'{{' '}}'里的变量字符串" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="136" y="120" width="112" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="51" target="60" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="164" y="188" as="sourcePoint"/>
+                        <mxPoint x="224" y="61.999999999999886" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="63" target="67" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="68" vertex="1" connectable="0">
+                    <mxGeometry x="-0.3078" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="63" target="69" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="484" y="112"/>
+                            <mxPoint x="600" y="112"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="72" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="70" vertex="1" connectable="0">
+                    <mxGeometry x="0.1208" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="63" value="是否普通字符串" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="444" y="22" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="67" target="69" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="tokens: string[]" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="584" y="32" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="69" target="73" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="tokens: object[]&lt;br&gt;obj:{&lt;br&gt;&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div style=&quot;line-height: 18px&quot;&gt;&lt;div&gt;      tag: &lt;span style=&quot;color: #ae81ff&quot;&gt;true&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;      value: value.&lt;span style=&quot;color: #a6e22e&quot;&gt;trim&lt;/span&gt;(),&lt;/div&gt;&lt;div&gt;      html: html,&lt;/div&gt;&lt;div&gt;      oneTime: oneTime&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;}" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="592" y="220" width="120" height="156" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="73" target="88">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div&gt;    el &lt;span style=&quot;color: #f92672&quot;&gt;=&lt;/span&gt; token.tag&lt;/div&gt;&lt;div&gt;      &lt;span style=&quot;color: #f92672&quot;&gt;?&lt;/span&gt; &lt;span style=&quot;color: #a6e22e&quot;&gt;processTextToken&lt;/span&gt;(token, &lt;span style=&quot;color: #fd971f ; font-style: italic&quot;&gt;options&lt;/span&gt;)&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;      &lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; color: rgb(249 , 38 , 114)&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;document&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; color: rgb(102 , 217 , 239)&quot;&gt;createTextNode&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;token&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;.value)&lt;/span&gt;;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;frag.&lt;span style=&quot;color: #66d9ef&quot;&gt;appendChild&lt;/span&gt;(el)&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="224" y="208" width="288" height="104" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span style=&quot;color: #a6e22e&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span style=&quot;color: #a6e22e&quot;&gt;makeTextNodeLinkFn&lt;/span&gt;(tokens, frag, &lt;span style=&quot;color: #fd971f ; font-style: italic&quot;&gt;options&lt;/span&gt;)&lt;/div&gt;&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;返回一个函数&lt;span style=&quot;color: rgb(166 , 226 , 46) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;textNodeLinkFn&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;这个函数内部根据token的类型处理，&lt;/div&gt;&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;v-once/v-html就直接修改el的值，&lt;/div&gt;&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;如果需要收集依赖的指令({{}}),&lt;/div&gt;&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span style=&quot;color: #fd971f ; font-style: italic&quot;&gt;vm&lt;/span&gt;.&lt;span style=&quot;color: #a6e22e&quot;&gt;_bindDir&lt;/span&gt;(token.descriptor, node, &lt;span style=&quot;color: #fd971f ; font-style: italic&quot;&gt;host&lt;/span&gt;, &lt;span style=&quot;color: #fd971f ; font-style: italic&quot;&gt;scope&lt;/span&gt;)&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;最后把token，push给&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div style=&quot;line-height: 18px&quot;&gt;vm._directives&lt;/div&gt;&lt;div style=&quot;line-height: 18px&quot;&gt;以便后续在&lt;/div&gt;&lt;div style=&quot;line-height: 18px&quot;&gt;&lt;div style=&quot;line-height: 18px&quot;&gt;&lt;span style=&quot;color: #a6e22e&quot;&gt;linkAndCapture&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 18px&quot;&gt;内遍历，每一个元素生成一个new Watch()&lt;/div&gt;&lt;div style=&quot;line-height: 18px&quot;&gt;并且触发收集依赖。&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="615" width="288" height="316" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="oneTime = v-once&lt;br&gt;html = v-html" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="728" y="328" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="88" target="82">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="88" target="91">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span style=&quot;color: #a6e22e&quot;&gt;processTextToken&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div style=&quot;line-height: 18px&quot;&gt;&lt;div&gt;    &lt;span style=&quot;color: #fd971f ; font-style: italic&quot;&gt;token&lt;/span&gt;.descriptor &lt;span style=&quot;color: #f92672&quot;&gt;=&lt;/span&gt; {&lt;/div&gt;&lt;div&gt;      name: &lt;span style=&quot;color: #fd971f ; font-style: italic&quot;&gt;type&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;      def: publicDirectives[&lt;span style=&quot;color: #fd971f ; font-style: italic&quot;&gt;type&lt;/span&gt;],&lt;/div&gt;&lt;div&gt;      expression: parsed.expression,&lt;/div&gt;&lt;div&gt;      filters: parsed.filters&lt;/div&gt;&lt;div&gt;    }&lt;/div&gt;&lt;div&gt;return el&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="224" y="348" width="248" height="156" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="def: 包含当前类型的指令update的方法&lt;br&gt;举例：{{val}}&lt;span style=&quot;background-color: rgb(39 , 40 , 34) ; color: rgb(248 , 248 , 242) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div&gt;  &lt;span style=&quot;color: #a6e22e&quot;&gt;update&lt;/span&gt; (&lt;span style=&quot;color: #fd971f ; font-style: italic&quot;&gt;value&lt;/span&gt;) {&lt;/div&gt;&lt;div&gt;    &lt;span style=&quot;color: #fd971f&quot;&gt;this&lt;/span&gt;.el[&lt;span style=&quot;color: #fd971f&quot;&gt;this&lt;/span&gt;.attr] &lt;span style=&quot;color: #f92672&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #a6e22e&quot;&gt;_toString&lt;/span&gt;(&lt;span style=&quot;color: #fd971f ; font-style: italic&quot;&gt;value&lt;/span&gt;)&lt;/div&gt;&lt;div&gt;  }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;update方法就是最终传给 new Watch()的update，待数据更新时，调用&lt;/div&gt;&lt;div&gt;watch对象上的update方法来触发元素更新。&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+                    <mxGeometry x="504" y="414" width="416" height="152" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(166, 226, 46); font-family: menlo, monaco, &amp;quot;courier new&amp;quot;, monospace; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(39, 40, 34); display: inline; float: none;&quot;&gt;compileTextNode&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="93" target="97">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="&amp;lt;div &amp;gt;{{ val + 1 }}&amp;lt;/div&amp;gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1256" y="920" width="224" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="94" target="95">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="let obj = {val: 0}" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1240" y="574" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="&lt;br&gt;const dep = new Dep()&lt;br&gt;proxy&lt;br&gt;get:()=&amp;gt;{&lt;br&gt;dep.add()&lt;br&gt;}&lt;br&gt;&lt;br&gt;set:()=&amp;gt;{&lt;br&gt;dep.run()&lt;br&gt;}" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1040" y="574" width="144" height="178" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(166, 226, 46); font-family: menlo, monaco, &amp;quot;courier new&amp;quot;, monospace; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(39, 40, 34); display: inline; float: none;&quot;&gt;parseText&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="97" target="99">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="el: textNode.data,&lt;br&gt;wholeText: {{val + 1}}" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-872" y="920" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(166, 226, 46); font-family: menlo, monaco, &amp;quot;courier new&amp;quot;, monospace; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(39, 40, 34); display: inline; float: none;&quot;&gt;processTextToken&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="99" target="101">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="token:{&lt;br&gt;tag:true,&lt;br&gt;value:`val + 1`&lt;br&gt;html:false,&lt;br&gt;once:false&lt;br&gt;&lt;span style=&quot;color: rgb(248 , 248 , 242) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; background-color: rgb(39 , 40 , 34)&quot;&gt;descriptor:&lt;/span&gt;&lt;br&gt;}" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-560" y="905" width="248" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;div style=&quot;color: rgb(248, 248, 242); background-color: rgb(39, 40, 34); font-family: menlo, monaco, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 12px; line-height: 18px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #a6e22e&quot;&gt;linkAndCapture&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="101">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-832" y="1320" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="101" value="&lt;div style=&quot;color: rgb(248 , 248 , 242) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; background-color: rgb(39 , 40 , 34)&quot;&gt;&lt;span style=&quot;color: rgb(253 , 151 , 31) ; font-style: italic&quot;&gt;token&lt;/span&gt;.descriptor&amp;nbsp;&lt;span style=&quot;color: rgb(249 , 38 , 114)&quot;&gt;=&lt;/span&gt;&amp;nbsp;{&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; background-color: rgb(39 , 40 , 34)&quot;&gt;&lt;span style=&quot;color: rgb(248 , 248 , 242)&quot;&gt;name:&lt;/span&gt;&lt;font color=&quot;#fd971f&quot;&gt;&lt;i&gt;'text'&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#f8f8f2&quot;&gt;,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(248 , 248 , 242) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; background-color: rgb(39 , 40 , 34)&quot;&gt;def:&amp;nbsp;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; color: rgb(166 , 226 , 46)&quot;&gt;update&lt;/span&gt;&lt;span style=&quot;color: rgb(240 , 240 , 240) ; font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(240 , 240 , 240) ; font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; color: rgb(253 , 151 , 31) ; font-style: italic&quot;&gt;value&lt;/span&gt;&lt;span style=&quot;color: rgb(240 , 240 , 240) ; font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;) {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(253 , 151 , 31)&quot;&gt;this&lt;/span&gt;.el[&lt;font color=&quot;#fd971f&quot;&gt;data&lt;/font&gt;]&amp;nbsp;&lt;span style=&quot;color: rgb(249 , 38 , 114)&quot;&gt;=&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: rgb(166 , 226 , 46)&quot;&gt;_toString&lt;/span&gt;(&lt;span style=&quot;color: rgb(253 , 151 , 31) ; font-style: italic&quot;&gt;value&lt;/span&gt;)&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div style=&quot;color: rgb(248 , 248 , 242) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; background-color: rgb(39 , 40 , 34)&quot;&gt;expression:&amp;nbsp;&lt;i style=&quot;color: rgb(253 , 151 , 31)&quot;&gt;'val + 1'&lt;/i&gt;,&lt;/div&gt;&lt;div style=&quot;color: rgb(248 , 248 , 242) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; background-color: rgb(39 , 40 , 34)&quot;&gt;filters: parsed.filters&lt;/div&gt;&lt;div style=&quot;color: rgb(248 , 248 , 242) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; background-color: rgb(39 , 40 , 34)&quot;&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-568" y="1248" width="264" height="144" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="根据token生成的frag" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="172" y="376" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;div style=&quot;color: rgb(248, 248, 242); background-color: rgb(39, 40, 34); font-family: menlo, monaco, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 12px; line-height: 18px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #a6e22e ; text-decoration: underline&quot;&gt;Directive&lt;/span&gt;&lt;span style=&quot;color: #f8f8f2&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: #f8f8f2&quot;&gt;prototype&lt;/span&gt;&lt;span style=&quot;color: #f8f8f2&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: #a6e22e&quot;&gt;_bind&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="105" target="111">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span style=&quot;color: #fd971f ; font-style: italic&quot;&gt;vm&lt;/span&gt;._directives.push({&lt;/div&gt;&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span style=&quot;color: #f92672&quot;&gt;new&lt;/span&gt; &lt;span style=&quot;color: rgb(166 , 226 , 46)&quot;&gt;Directive&lt;/span&gt;(&lt;span style=&quot;color: #fd971f ; font-style: italic&quot;&gt;descriptor&lt;/span&gt;, &lt;span style=&quot;color: #fd971f&quot;&gt;this&lt;/span&gt;, &lt;span style=&quot;color: #fd971f ; font-style: italic&quot;&gt;node&lt;/span&gt;, &lt;span style=&quot;color: #fd971f ; font-style: italic&quot;&gt;host&lt;/span&gt;, &lt;span style=&quot;color: #fd971f ; font-style: italic&quot;&gt;scope&lt;/span&gt;, &lt;span style=&quot;color: #fd971f ; font-style: italic&quot;&gt;frag&lt;/span&gt;)&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;})&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1107" y="1277" width="280" height="86" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;div style=&quot;color: rgb(248, 248, 242); background-color: rgb(39, 40, 34); font-family: menlo, monaco, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 12px; line-height: 18px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #a6e22e ; text-decoration: underline&quot;&gt;Watcher&lt;/span&gt;&lt;span style=&quot;color: #f8f8f2&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: #f8f8f2&quot;&gt;prototype&lt;/span&gt;&lt;span style=&quot;color: #f8f8f2&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: #a6e22e&quot;&gt;get&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="111" target="113">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span style=&quot;color: #f92672&quot;&gt;new&lt;/span&gt; &lt;span style=&quot;color: rgb(166 , 226 , 46)&quot;&gt;Watcher(&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; color: rgb(253 , 151 , 31)&quot;&gt;this&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;.vm,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div&gt;      &lt;span style=&quot;color: #fd971f&quot;&gt;this&lt;/span&gt;.expression,&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;      &lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; color: rgb(253 , 151 , 31)&quot;&gt;this&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;._update,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span style=&quot;color: rgb(166 , 226 , 46)&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1472" y="1256" width="120" height="128" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; background-color: rgb(39 , 40 , 34) ; color: rgb(253 , 151 , 31)&quot;&gt;调用&lt;br&gt;this&lt;/span&gt;&lt;span style=&quot;color: rgb(248 , 248 , 242) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; background-color: rgb(39 , 40 , 34)&quot;&gt;.expression&lt;/span&gt;&lt;br&gt;Dep 收集 Watcher" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1792" y="1290" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
