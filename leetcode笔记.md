@@ -24,6 +24,17 @@
 
 4、**明确 `dp` 函数/数组的定义**。
 
+```python
+# 初始化 base case
+dp[0][0][...] = base
+# 进行状态转移
+for 状态1 in 状态1的所有取值：
+    for 状态2 in 状态2的所有取值：
+        for ...
+       # dp函数
+            dp[状态1][状态2][...] = 求最值(选择1，选择2...)
+```
+
 
 
 ### Tag
@@ -31,6 +42,8 @@
 ---
 
 #### Array
+
+
 
 最大子序和(Easy)
 
@@ -41,6 +54,6 @@
 
 1. 确定base case：Dp(0) = nums[0]
 2. 确定状态：num
-3. 确定选择：确定当前index时，max(当前值,之前最大值+当前值)
+3. 确定选择：for const num of nuns
 4. 明确dp：dp(i) = max(dp(i - 1) + nums[i] / dp(i - 1), nums[i])
 
