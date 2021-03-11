@@ -29,3 +29,17 @@ renderWithHooks
 2. reconcileChildren(vdom),作用是把vdom的内容转化为一个fiber节点，同时挂载到workInProgress.children
 
 3. 最后返回workInProgress.children 开始后续的递归调度
+
+
+
+### diff
+
+广度优先会导致react生命周期乱套，父组件执行完，子组件才开始调用。
+
+#### n(o)3 ->n(o)
+
+自身从头深度遍历到尾：1层遍历
+
+当前节点跨层级比较（react不跨层）：1层遍历
+
+同一层的某一个元素遍历比较另一颗树的所有元素（key的作用）：1层遍历
