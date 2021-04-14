@@ -1,3 +1,26 @@
+优点：
+
+rxjs通过观察者模式使得数据处理思维成为了线性的(和promise的线性思考量类似)，
+
+又因为函数式编程能力，使得逻辑高内聚、耦合低，数据流动的过程是一个个强功能、单一的函数处理。
+
+其它优点来自函数式编程，具有这个编程模式所有优点。
+
+- 同步与异步的统一
+- 获取和订阅的统一
+- 现在与未来的统一
+- 可组合的数据变更过程
+
+缺点：
+
+学习有成本，不一定适合团队协作。
+
+语义化差，因为功能单一，所以api多。
+
+其它缺点待定。
+
+---
+
 ReactiveX 结合了 [观察者模式](https://en.wikipedia.org/wiki/Observer_pattern)、[迭代器模式](https://en.wikipedia.org/wiki/Iterator_pattern) 和 [使用集合的函数式编程](http://martinfowler.com/articles/collection-pipeline/#NestedOperatorExpressions)，以满足以一种理想方式来管理事件序列所需要的一切。
 
 在 RxJS 中用来解决异步事件管理的的基本概念是：

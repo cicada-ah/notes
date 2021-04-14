@@ -4,7 +4,7 @@ useState原理
 
 https://juejin.cn/post/6844904152712085512#heading-13
 
-![image-20210217000811932](https://raw.githubusercontent.com/waiwai948/myTypora/main/img/image-20210217000811932.png)
+<img src="https://raw.githubusercontent.com/waiwai948/myTypora/main/img/image-20210217000811932.png" alt="image-20210217000811932" style="zoom:25%;" />
 
 为什么setA之后，又setC，child只打印了一次，而不是两次呢？因为set操作是修改fiber上的memoizedState值，此时没有触发render，最后执行**scheduleWork，此时react才考虑触发render，从最顶级的fiber进行调用逐层便利触发**，因此，父子组件都修改值时，只会调用一次函数，而不是子函数hook触发一次，父函数更新时再触发一次子函数hook，这样的两次。
 

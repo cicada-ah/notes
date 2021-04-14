@@ -755,5 +755,7 @@ new sonClass()
 
 
 
+#### type or interface
 
+定义数据结构用interface, 表述数据关系用type(eg: a| b | c , a&b&c)
 
